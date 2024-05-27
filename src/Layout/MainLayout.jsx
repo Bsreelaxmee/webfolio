@@ -13,8 +13,8 @@ const MainLayout = () => {
      </div>
 
         
-          <AboutPage/> 
-         {/* <HomePage/> */}
+          {/* <AboutPage/>  */}
+         <HomePage/>
      
 
     </div>
