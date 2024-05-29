@@ -21,7 +21,7 @@ const AboutPage = () =>
      <Grid container  height={'90%'}  sx={{ padding:'px'}} spacing={2}>
         
         {/* first grid-image */}
-         <Grid item xs={12} md={12} lg={6} sx={{ padding:'px'}} >
+         <Grid item xs={12} md={12} lg={6} sx={ { padding:'10px'}} >
             <img src={'https://i.pinimg.com/originals/95/48/61/95486188fbf36520e34fc2ec41b4523f.jpg'}
             alt='' srcSet='' width={'50%'}
 
@@ -29,7 +29,7 @@ const AboutPage = () =>
          </Grid>
          
         {/* second grid */}
-         <Grid item xs={12} md={12} lg={6} sx={{ padding:'px'}}>
+         <Grid item xs={12} md={12} lg={6} sx={{ padding:'10px'}}>
            <Typography variant='h2' align='left'>
             About Me
            </Typography>
